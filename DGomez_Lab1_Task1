@@ -1,0 +1,44 @@
+import java.util.Scanner;
+
+
+
+
+public class MovieDriver_Task1 {
+
+	public static void main (String[] args) {
+
+
+		Scanner input = new Scanner(System.in);
+		
+		Movie movie1 = new Movie();
+	
+			//variable for storing input for movie information
+			String movieInput;
+			
+			//ask for movie name and set it
+			System.out.println("Enter the name of a movie: ");
+			movieInput = input.nextLine();
+			movie1.setTitle(movieInput);
+
+			//ask for rating and set it
+			System.out.println("Enter the rating of the movie: ");
+		    movieInput = input.nextLine();
+			movie1.setRating(movieInput);
+
+			
+			// ask for tickets sold and set them
+			System.out.println("Enter the number of tickets sold for this movie: ");
+			int ticketsSold;
+			ticketsSold = input.nextInt();
+			movie1.setSoldTickets(ticketsSold);
+			input.nextLine();
+
+			//print the info
+			System.out.println(movie1.toString());
+		
+		
+		System.out.println("Goodbye");
+
+		input.close();
+	}
+}
