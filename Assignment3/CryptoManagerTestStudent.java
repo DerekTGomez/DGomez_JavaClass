@@ -1,3 +1,17 @@
+/*
+ * Class: CMSC203 
+ * Instructor:  Khandan Monshi
+ * Description: A brief simple encryp/decrypt app
+ * Due:10/24/2024
+ * Platform/compiler: Eclipse Java
+ * I pledge that I have completed the programming  assignment independently. 
+*  I have not copied the code from a student or any source. 
+*  I have not given my code to any student.
+*  Print your Name here: Derek Gomez
+*/
+
+
+
 import static org.junit.Assert.assertEquals;
 import static org.junit.jupiter.api.Assertions.*;
 
